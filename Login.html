@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoptafácil</title>
+    <link rel="stylesheet" href="stylelogin.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="container">
+        <img src="Logo.png" alt="Logo de Adoptafácil" width="220" height="140">
+        <form action="submit" method="post">
+            <!--Usuario-->
+            <br><label for="nombre">Usuario o email:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Digite su usuario o correo electrónico" required>
+
+            <!--password-->
+            <label for="clave">Contraseña:</label>
+            <input type="password" id="clave" name="clave" placeholder="Digite su contraseña" required>
+
+            <!--Ingreso-->
+            <br><button type="submit" name="enviar">Ingresar</button>
+        </form>
+    </div>
+    <script src="scriptlogin.js"></script>
+</body>
+</html>
