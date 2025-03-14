@@ -42,12 +42,8 @@ body {
 
 
 /* Enlaces */
-.enlace1 {
+.enlace {
     color: #0044ff;
-    text-decoration: none;
-}
-.enlace2 {
-    color: #ffffff;
     text-decoration: none;
 }
 
@@ -130,6 +126,7 @@ input[type="checkbox"] {
 
 /* Boton 2 */
 .boton2{
+    display: inline-block;
     width: 30%;
     padding: 10px;
     background-color: #06a924;
@@ -140,6 +137,9 @@ input[type="checkbox"] {
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
     margin: auto;
+    text-align: center;
+    text-decoration: none;
+
 }
 .boton2:hover {
     background-color: #06a924;
