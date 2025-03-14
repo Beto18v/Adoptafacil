@@ -2,14 +2,13 @@ particlesJS.load('particles-js', 'particles.json', function() {
 });
 
 document.querySelector('form').addEventListener('submit', function(event) {
-    event.preventDefault(); 
+    event.preventDefault();
     const button = document.querySelector('button[type="submit"]');
     const loader = document.createElement('div');
     loader.className = 'loader';
-    button.innerHTML = ''; // Limpiar texto del botón
-    button.appendChild(loader); // Agregar el spinner
-    button.disabled = true; // Desactivar el botón
-
+    button.innerHTML = ''; // Limpia texto del botón
+    button.appendChild(loader); // Agrega el spinner
+    button.disabled = true; // Desactiva el botón
     // Envío de formulario
     setTimeout(() => {
         alert('Registro exitoso');
