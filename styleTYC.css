@@ -41,16 +41,13 @@ p {
     padding: 0 20px;
 }
 
-/* Estilos para el enlace */
+/* Enlace */
 a {
     color: #007bff;
     text-decoration: none;
     font-weight: bold;
 }
 
-a:hover {
-    text-decoration: underline;
-}
 
 /* Animación de entrada */
 @keyframes fadeIn {
@@ -64,19 +61,7 @@ a:hover {
     }
 }
 
-/* Aplicar animación al cuerpo */
+/* Animación al cuerpo */
 body {
     animation: fadeIn 1s ease-out;
-}
-
-/* Estilos para dispositivos móviles */
-@media (max-width: 480px) {
-    h1 {
-        font-size: 1.5rem;
-    }
-
-    p {
-        font-size: 0.9rem;
-        padding: 0 10px;
-    }
 }

@@ -20,7 +20,7 @@ body {
     z-index: -1;
 }
 
-/* Estilos para el contenedor principal */
+/* Contenedor principal */
 .container {
     text-align: center;
     max-width: 400px;
@@ -40,6 +40,18 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+
+/* Enlaces */
+.enlace1 {
+    color: #0044ff;
+    text-decoration: none;
+}
+.enlace2 {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
 /* Animación de entrada */
 @keyframes fadeIn {
     from {
@@ -53,7 +65,7 @@ body {
 }
 
 
-/* Estilos para formularios */
+/* Formularios */
 form {
     display: flex;
     flex-direction: column;
@@ -69,6 +81,8 @@ label {
 
 input[type="text"],
 input[type="password"],
+
+
 select {
     width: 100%;
     padding: 10px;
@@ -80,9 +94,6 @@ select {
 }
 
 input[type="text"]:focus,
-input[type="number"]:focus,
-input[type="date"]:focus,
-input[type="email"]:focus,
 input[type="password"]:focus,
 select:focus {
     border-color: #007bff;
@@ -94,24 +105,9 @@ input[type="checkbox"] {
     margin-right: 10px;
 }
 
-button[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button[type="submit"]:hover {
-    background-color: #0056b3;
-}
-
-button[type="submit"] {
-    width: 100%;
+/* Boton seleccionar */
+.boton1{
+    width: 30%;
     padding: 10px;
     background-color: #007bff;
     color: #fff;
@@ -120,21 +116,45 @@ button[type="submit"] {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: auto;
 }
 
-button[type="submit"]:hover {
+.boton1:hover {
+    background-color: #0056b3;
+}
+
+.boton1:hover {
     background-color: #0056b3;
     transform: scale(1.05);
 }
 
 
-/* Estilos para dispositivos móviles */
-@media (max-width: 480px) {
-    .container {
-        padding: 15px;
-    }
+/* Boton 2 */
+.boton2{
+    width: 30%;
+    padding: 10px;
+    background-color: #06a924;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: auto;
+}
+.boton2:hover {
+    background-color: #06a924;
+}
+.boton2:hover {
+    background-color: #06a924;
+    transform: scale(1.05);
+}
 
-    h2 {
-        font-size: 24px;
-    }
+
+/* Separador */
+hr {
+    border: 0;
+    height: 1px;
+    background: #888888f5;
+    margin: 5px 0;
 }

@@ -2,22 +2,20 @@ particlesJS.load('particles-js', 'particles.json', function() {
 });
 
 document.querySelector('form').addEventListener('submit', function(event) {
-    event.preventDefault(); // Evita que el formulario se envíe de la manera tradicional 
-    // (recargando la página o redirigiendo a otra URL). 
-    // Esto permite manejar el envío del formulario de manera personalizada con JavaScript.
+    event.preventDefault();
     const button = document.querySelector('button[type="submit"]');
     const loader = document.createElement('div');
     loader.className = 'loader';
-    button.innerHTML = ''; // Limpia el texto del botón
+    button.innerHTML = ''; // Limpia texto del botón
     button.appendChild(loader); // Agrega el spinner
     button.disabled = true; // Desactiva el botón
 
-    // Simula un envío de formulario
+    // Envío de formulario
     setTimeout(() => {
         alert('Registro exitoso');
         button.innerHTML = 'Enviar formulario';
         button.disabled = true;
-    }, 2000); // Simula un retraso de 2 segundos
+    }, 2000); // Retraso de 2 segundos
 });
 
 const nombre = document.getElementById('nombre');
