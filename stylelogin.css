@@ -1,4 +1,4 @@
-/* Estilos globales */
+/* Estilos */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -127,7 +127,6 @@ input[type="checkbox"] {
     background-color: #0056b3;
     transform: scale(1.05);
 }
-
 
 /* Boton 2 */
 .boton2{

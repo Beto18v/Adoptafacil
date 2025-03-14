@@ -9,7 +9,6 @@ document.querySelector('form').addEventListener('submit', function(event) {
     button.innerHTML = ''; // Limpia texto del botón
     button.appendChild(loader); // Agrega el spinner
     button.disabled = true; // Desactiva el botón
-
     // Envío de formulario
     setTimeout(() => {
         alert('Registro exitoso');

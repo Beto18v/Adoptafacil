@@ -21,7 +21,7 @@ body {
     z-index: -1;
 }
 
-/* Estilos para el título */
+/* Estilos título */
 h1 {
     background: linear-gradient(135deg, #128800, #00328a);
     background-clip: text;
@@ -31,7 +31,7 @@ h1 {
     text-align: center;
 }
 
-/* Estilos para los párrafos */
+/* Estilos párrafos */
 p {
     display: block;
     margin: 10px 0;
