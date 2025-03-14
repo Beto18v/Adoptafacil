@@ -20,7 +20,7 @@ body {
     z-index: -1;
 }
 
-/* Estilos para el contenedor principal */
+/* Estilos contenedor principal */
 .container {
     text-align: center;
     max-width: 400px;
@@ -40,7 +40,7 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Estilos para títulos y textos */
+/* Estilos títulos y textos */
 h1, h2 {
     background: linear-gradient(135deg, #128800, #00328a);
     background-clip: text;
@@ -49,12 +49,12 @@ h1, h2 {
     margin-bottom: 20px;
 }
 
-/* Asegúrate de que los párrafos sean bloques */
+/* Estilo parrafos */
 p {
-    display: block; /* Esto es clave para que los párrafos estén uno debajo del otro */
+    display: block;
     margin: 10px 0;
     color: #333;
-    text-align: center; /* Alineación del texto */
+    text-align: center;
 }
 
 a {
@@ -154,16 +154,4 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #0056b3;
     transform: scale(1.05);
-}
-
-
-/* Estilos para dispositivos móviles */
-@media (max-width: 480px) {
-    .container {
-        padding: 15px;
-    }
-
-    h2 {
-        font-size: 24px;
-    }
 }
