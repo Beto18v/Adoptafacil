@@ -41,16 +41,13 @@ p {
     padding: 0 20px;
 }
 
-/* Estilos del enlace */
+/* Enlace */
 a {
     color: #007bff;
     text-decoration: none;
     font-weight: bold;
 }
 
-a:hover {
-    text-decoration: underline;
-}
 
 /* Animación de entrada */
 @keyframes fadeIn {
@@ -64,7 +61,7 @@ a:hover {
     }
 }
 
-/* Aplicar animación al cuerpo */
+/* Animación al cuerpo */
 body {
     animation: fadeIn 1s ease-out;
 }
