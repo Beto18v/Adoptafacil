@@ -1,12 +1,9 @@
 particlesJS.load('particles-js', 'particles.json', function() {
+    console.log('Partículas cargadas');
 });
 
 const nombre = document.getElementById('nombre');
 const correo = document.getElementById('correo');
-
-function redirigir() {
-    window.location.href = 'https://www.ejemplo.com';
-}
 
 nombre.addEventListener('input', function() {
     if (nombre.value.length < 3) {
